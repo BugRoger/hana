@@ -1,0 +1,23 @@
+development:
+  adapter: hana
+  mode: odbc
+  dsn: HANA
+  username: system
+  password: Toor1234
+  database: hana_development
+
+test:
+  adapter: hana
+  mode: odbc
+  dsn: HANA
+  username: system
+  password: Toor1234
+  database: hana_test
+
+production:
+  adapter: hana
+  mode: odbc
+  dsn: HANA
+  username: system
+  password: Toor1234
+  database: hana_production
